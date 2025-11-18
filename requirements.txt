@@ -1,0 +1,3 @@
+streamlit
+ultralytics
+# Add other necessary libraries like numpy, pandas, Pillow, etc.
