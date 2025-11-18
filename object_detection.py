@@ -5,7 +5,7 @@ from PIL import Image
 import numpy as np
 
 # Load YOLO model
-model = YOLO("runs/detect/train7/weights/best.pt")   # Use yolov8s.pt, yolov8m.pt, yolov8l.pt for better accuracy
+model = YOLO("best.pt")   # Use yolov8s.pt, yolov8m.pt, yolov8l.pt for better accuracy
 
 
 st.title("Object Detection App (YOLOv8 + Streamlit)")
