@@ -1,0 +1,8 @@
+# data.yaml
+train: object_detection/train/images
+val:   object_detection/valid/images
+# number of classes
+nc: 2
+
+# class names in a list (index must match label integer in .txt files)
+names: ['bird','drone']
